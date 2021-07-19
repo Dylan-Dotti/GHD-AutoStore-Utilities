@@ -1,0 +1,80 @@
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\bin\Debug\GhdAutoStoreUtilities.exe.config
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\bin\Debug\GhdAutoStoreUtilities.exe
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\bin\Debug\GhdAutoStoreUtilities.pdb
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\bin\Debug\ClosedXML.dll
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\bin\Debug\Excel.dll
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\bin\Debug\ExcelNumberFormat.dll
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\bin\Debug\System.IO.Packaging.dll
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\bin\Debug\ClosedXML.pdb
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\bin\Debug\ClosedXML.xml
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\bin\Debug\Excel.xml
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\bin\Debug\ExcelNumberFormat.xml
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\obj\Debug\GhdAutoStoreUtilities.csprojAssemblyReference.cache
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\obj\Debug\GhdAutoStoreUtilities.csproj.ResolveComReference.cache
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\obj\Debug\GhdAutoStoreUtilities.GUI.FileSelector.resources
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\obj\Debug\AutoStoreMissingBinFinder.GUI.MismatchedBinFinderControl.resources
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\obj\Debug\GhdAutoStoreUtilities.GUI.MissingBinFinderControl.resources
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\obj\Debug\GhdAutoStoreUtilities.GUI.MissingBinOperationForm.resources
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\obj\Debug\GhdAutoStoreUtilities.GUI.MainForm.resources
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\obj\Debug\GhdAutoStoreUtilities.GUI.TestForm.resources
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\obj\Debug\GhdAutoStoreUtilities.Properties.Resources.resources
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\obj\Debug\GhdAutoStoreUtilities.csproj.GenerateResource.cache
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\obj\Debug\GhdAutoStoreUtilities.csproj.CoreCompileInputs.cache
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\obj\Debug\GhdAutoStoreUtilities.csproj.CopyComplete
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\obj\Debug\GhdAutoStoreUtilities.exe
+C:\Users\h4dottd\Documents\NET Projects\AutoStoreMissingBinFinder\AutoStoreMissingBinFinder\obj\Debug\GhdAutoStoreUtilities.pdb
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\bin\Debug\GhdAutoStoreUtilities.exe.config
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\bin\Debug\GhdAutoStoreUtilities.exe
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\bin\Debug\GhdAutoStoreUtilities.pdb
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\bin\Debug\ClosedXML.dll
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\bin\Debug\Excel.dll
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\bin\Debug\ExcelNumberFormat.dll
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\bin\Debug\System.IO.Packaging.dll
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\bin\Debug\ClosedXML.pdb
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\bin\Debug\ClosedXML.xml
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\bin\Debug\Excel.xml
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\bin\Debug\ExcelNumberFormat.xml
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.csprojAssemblyReference.cache
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.csproj.ResolveComReference.cache
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.GUI.FileSelector.resources
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\AutoStoreMissingBinFinder.GUI.MismatchedBinFinderControl.resources
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.GUI.MissingBinFinderControl.resources
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.GUI.MissingBinOperationForm.resources
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.GUI.MainForm.resources
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.GUI.TestForm.resources
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.Properties.Resources.resources
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.csproj.GenerateResource.cache
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.csproj.CoreCompileInputs.cache
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.csproj.CopyComplete
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.exe
+C:\Users\h4dottd\Documents\NET Projects\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.pdb
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\bin\Debug\GhdAutoStoreUtilities.exe.config
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\bin\Debug\GhdAutoStoreUtilities.exe
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\bin\Debug\GhdAutoStoreUtilities.pdb
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\bin\Debug\ClosedXML.dll
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\bin\Debug\ExcelNumberFormat.dll
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\bin\Debug\System.IO.Packaging.dll
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\bin\Debug\ClosedXML.pdb
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\bin\Debug\ClosedXML.xml
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\bin\Debug\Excel.xml
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\bin\Debug\ExcelNumberFormat.xml
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.csprojAssemblyReference.cache
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.csproj.ResolveComReference.cache
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.GUI.FileSelector.resources
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\AutoStoreMissingBinFinder.GUI.MismatchedBinFinderControl.resources
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.GUI.MissingBinFinderControl.resources
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.GUI.MissingBinOperationForm.resources
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.GUI.MainForm.resources
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.GUI.TestForm.resources
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.Properties.Resources.resources
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.csproj.GenerateResource.cache
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.csproj.CoreCompileInputs.cache
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.csproj.CopyComplete
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.exe
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.pdb

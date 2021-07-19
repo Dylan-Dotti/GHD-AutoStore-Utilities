@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhdAutoStoreUtilities", "GhdAutoStoreUtilities\GhdAutoStoreUtilities.csproj", "{79BACD6D-2B76-485D-A3C3-CDB45E6CE71A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhdAutoStoreUtilities.Tests", "GhdAutoStoreUtilities.Tests\GhdAutoStoreUtilities.Tests.csproj", "{66031191-9A61-4401-B686-D7D5EF430E97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79BACD6D-2B76-485D-A3C3-CDB45E6CE71A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79BACD6D-2B76-485D-A3C3-CDB45E6CE71A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79BACD6D-2B76-485D-A3C3-CDB45E6CE71A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79BACD6D-2B76-485D-A3C3-CDB45E6CE71A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66031191-9A61-4401-B686-D7D5EF430E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66031191-9A61-4401-B686-D7D5EF430E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66031191-9A61-4401-B686-D7D5EF430E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66031191-9A61-4401-B686-D7D5EF430E97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A87BFCE-082B-4B30-A7D8-318E710BE718}
+	EndGlobalSection
+EndGlobal
