@@ -14,8 +14,8 @@ namespace GhdAutoStoreUtilities
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
-            //Application.Run(new TabbedMainForm());
+            //Application.Run(new MainForm());
+            Application.Run(new TabbedMainForm2());
         }
     }
 }
