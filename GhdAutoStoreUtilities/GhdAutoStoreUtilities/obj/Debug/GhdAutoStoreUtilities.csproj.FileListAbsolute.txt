@@ -78,3 +78,4 @@ C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\
 C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.csproj.CopyComplete
 C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.exe
 C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.pdb
+C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.GUI.TabbedMainForm.resources
