@@ -108,6 +108,12 @@
     <Compile Include="GUI\TabbedMainForm2.Designer.cs">
       <DependentUpon>TabbedMainForm2.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\TabbedResultsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\TabbedResultsControl.Designer.cs">
+      <DependentUpon>TabbedResultsControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\TestForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -156,6 +162,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\TabbedMainForm2.resx">
       <DependentUpon>TabbedMainForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\TabbedResultsControl.resx">
+      <DependentUpon>TabbedResultsControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\TestForm.resx">
       <DependentUpon>TestForm.cs</DependentUpon>
