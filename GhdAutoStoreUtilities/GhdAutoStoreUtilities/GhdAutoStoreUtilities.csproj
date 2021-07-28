@@ -74,6 +74,7 @@
   <ItemGroup>
     <Compile Include="AutoStoreBin.cs" />
     <Compile Include="AutoStoreDataReader.cs" />
+    <Compile Include="BinDataAnalysisResults.cs" />
     <Compile Include="Exceptions\AutoStoreHeaderNotFoundException.cs" />
     <Compile Include="Exceptions\HeaderNotFoundException.cs" />
     <Compile Include="Exceptions\SynqHeaderNotFoundException.cs" />
@@ -89,6 +90,12 @@
     </Compile>
     <Compile Include="GUI\MismatchedBinFinderControl.Designer.cs">
       <DependentUpon>MismatchedBinFinderControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MismatchedBinsListView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\MismatchedBinsListView.Designer.cs">
+      <DependentUpon>MismatchedBinsListView.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\MissingBinFinderControl.cs">
       <SubType>UserControl</SubType>
@@ -147,6 +154,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\MismatchedBinFinderControl.resx">
       <DependentUpon>MismatchedBinFinderControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MismatchedBinsListView.resx">
+      <DependentUpon>MismatchedBinsListView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\MissingBinFinderControl.resx">
       <DependentUpon>MissingBinFinderControl.cs</DependentUpon>

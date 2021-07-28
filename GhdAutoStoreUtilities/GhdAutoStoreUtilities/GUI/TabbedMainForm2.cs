@@ -16,5 +16,10 @@ namespace GhdAutoStoreUtilities.GUI
         {
             InitializeComponent();
         }
+
+        private void analyzeButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

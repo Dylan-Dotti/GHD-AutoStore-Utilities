@@ -39,10 +39,7 @@ namespace GhdAutoStoreUtilities.GUI
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.missingBinsTextBox = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.binID = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.synqLocation = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.asLocation = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.mismatchedBinsListView1 = new GhdAutoStoreUtilities.GUI.MismatchedBinsListView();
             this.ResultsGroupBox.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
@@ -61,7 +58,7 @@ namespace GhdAutoStoreUtilities.GUI
             this.ResultsGroupBox.Location = new System.Drawing.Point(0, 0);
             this.ResultsGroupBox.Name = "ResultsGroupBox";
             this.ResultsGroupBox.Padding = new System.Windows.Forms.Padding(5);
-            this.ResultsGroupBox.Size = new System.Drawing.Size(603, 237);
+            this.ResultsGroupBox.Size = new System.Drawing.Size(464, 239);
             this.ResultsGroupBox.TabIndex = 4;
             this.ResultsGroupBox.TabStop = false;
             this.ResultsGroupBox.Text = "Results";
@@ -78,7 +75,7 @@ namespace GhdAutoStoreUtilities.GUI
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(593, 212);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(454, 214);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // tableLayoutPanel6
@@ -91,7 +88,7 @@ namespace GhdAutoStoreUtilities.GUI
             this.tableLayoutPanel6.Controls.Add(this.label2, 0, 0);
             this.tableLayoutPanel6.Controls.Add(this.maxLenInput, 1, 0);
             this.tableLayoutPanel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(0, 182);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(0, 184);
             this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 1;
@@ -146,7 +143,7 @@ namespace GhdAutoStoreUtilities.GUI
             this.tabControl1.Location = new System.Drawing.Point(3, 3);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(587, 176);
+            this.tabControl1.Size = new System.Drawing.Size(448, 178);
             this.tabControl1.TabIndex = 5;
             // 
             // tabPage1
@@ -191,46 +188,23 @@ namespace GhdAutoStoreUtilities.GUI
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.listView1);
+            this.tabPage2.Controls.Add(this.mismatchedBinsListView1);
             this.tabPage2.Location = new System.Drawing.Point(4, 27);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(385, 108);
+            this.tabPage2.Size = new System.Drawing.Size(440, 147);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Mismatched";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // listView1
+            // mismatchedBinsListView1
             // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.binID,
-            this.synqLocation,
-            this.asLocation});
-            this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(3, 3);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(379, 102);
-            this.listView1.TabIndex = 1;
-            this.listView1.TabStop = false;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
-            // 
-            // binID
-            // 
-            this.binID.Text = "Bin ID";
-            this.binID.Width = 91;
-            // 
-            // synqLocation
-            // 
-            this.synqLocation.Text = "Synq Location";
-            this.synqLocation.Width = 139;
-            // 
-            // asLocation
-            // 
-            this.asLocation.Text = "AS Location";
-            this.asLocation.Width = 151;
+            this.mismatchedBinsListView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mismatchedBinsListView1.Location = new System.Drawing.Point(3, 3);
+            this.mismatchedBinsListView1.Margin = new System.Windows.Forms.Padding(4);
+            this.mismatchedBinsListView1.Name = "mismatchedBinsListView1";
+            this.mismatchedBinsListView1.Size = new System.Drawing.Size(434, 141);
+            this.mismatchedBinsListView1.TabIndex = 0;
             // 
             // TabbedResultsControl
             // 
@@ -238,9 +212,9 @@ namespace GhdAutoStoreUtilities.GUI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.ResultsGroupBox);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "TabbedResultsControl";
-            this.Size = new System.Drawing.Size(603, 237);
+            this.Size = new System.Drawing.Size(464, 239);
             this.ResultsGroupBox.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
@@ -268,9 +242,6 @@ namespace GhdAutoStoreUtilities.GUI
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private System.Windows.Forms.TextBox missingBinsTextBox;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.ColumnHeader binID;
-        private System.Windows.Forms.ColumnHeader synqLocation;
-        private System.Windows.Forms.ColumnHeader asLocation;
+        private MismatchedBinsListView mismatchedBinsListView1;
     }
 }
