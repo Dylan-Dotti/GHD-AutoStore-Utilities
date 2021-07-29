@@ -30,8 +30,8 @@ namespace GhdAutoStoreUtilities.GUI
             if (results.MissingBins != null)
             {
                 string[] missingBinResults = results.MissingBins
-                .Where(s => s.Length <= decimal.ToInt32(maxLenInput.Value))
-                .ToArray();
+                    .Where(s => s.Length <= decimal.ToInt32(maxLenInput.Value))
+                    .ToArray();
                 missingBinsTextBox.Text = missingBinResults.Length == 0 ?
                 (haveSearched ? "No missing bins found" : "") :
                 string.Join(Environment.NewLine, missingBinResults);
@@ -39,7 +39,20 @@ namespace GhdAutoStoreUtilities.GUI
             // update mismatched bins
             if (results.MismatchedBins != null)
             {
-                // TODO
+                var mismatchedBins = results.MismatchedBins
+                    .Where(s => s.BinID.Length <= decimal.ToInt32(maxLenInput.Value));
+                mismatchedBinsListView1.Clear();
+                if (mismatchedBins.Count() == 0 && haveSearched)
+                {
+
+                }
+                else
+                {
+                    foreach (MismatchedBinLocation bin in mismatchedBins)
+                    {
+                        mismatchedBinsListView1.AddRow(bin);
+                    }
+                }
             }
         }
     }

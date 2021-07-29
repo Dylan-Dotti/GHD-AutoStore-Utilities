@@ -75,6 +75,7 @@
     <Compile Include="AutoStoreBin.cs" />
     <Compile Include="AutoStoreDataReader.cs" />
     <Compile Include="BinAnalysisResults.cs" />
+    <Compile Include="BinLocationCategory.cs" />
     <Compile Include="Exceptions\AutoStoreHeaderNotFoundException.cs" />
     <Compile Include="Exceptions\HeaderNotFoundException.cs" />
     <Compile Include="Exceptions\SynqHeaderNotFoundException.cs" />
