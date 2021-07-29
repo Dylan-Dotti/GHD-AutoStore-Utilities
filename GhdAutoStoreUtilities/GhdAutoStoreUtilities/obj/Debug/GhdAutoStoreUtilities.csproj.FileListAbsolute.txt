@@ -97,7 +97,6 @@ D:\Github\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\ob
 D:\Github\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.GUI.FileSelector.resources
 D:\Github\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\AutoStoreMissingBinFinder.GUI.MismatchedBinFinderControl.resources
 D:\Github\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.GUI.MissingBinFinderControl.resources
-D:\Github\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.GUI.MissingBinOperationForm.resources
 D:\Github\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.GUI.MainForm.resources
 D:\Github\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.GUI.TabbedMainForm.resources
 D:\Github\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.GUI.TabbedMainForm2.resources
@@ -111,3 +110,5 @@ D:\Github\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\ob
 D:\Github\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.GUI.TabbedResultsControl.resources
 C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.GUI.TabbedResultsControl.resources
 C:\Users\h4dottd\Documents\GitHub\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.GUI.MismatchedBinsListView.resources
+D:\Github\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.GUI.MismatchedBinsListView.resources
+D:\Github\GHD-AutoStore-Utilities\GhdAutoStoreUtilities\GhdAutoStoreUtilities\obj\Debug\GhdAutoStoreUtilities.GUI.BinAnalysisOperationForm.resources

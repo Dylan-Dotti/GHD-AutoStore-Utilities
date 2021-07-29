@@ -48,13 +48,13 @@ namespace GhdAutoStoreUtilities.GUI
             missingBinsTextBox.Text = "";
             results = new string[] { };
             haveSearched = false;
-            MissingBinOperationForm operationForm = new MissingBinOperationForm(
+            BinAnalysisOperationForm operationForm = new BinAnalysisOperationForm(
                 synqFileSelector.SelectedFileName, 
                 asFileSelector.SelectedFileName);
             if (operationForm.ShowDialog(this) == DialogResult.OK)
             {
                 Console.WriteLine("ok");
-                results = operationForm.MissingBinsResult;
+                results = operationForm.AnalysisResults.MissingBins.ToArray();
                 haveSearched = true;
                 UpdateResults();
             }

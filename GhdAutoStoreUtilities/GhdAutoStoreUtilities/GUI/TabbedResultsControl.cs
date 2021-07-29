@@ -7,9 +7,10 @@ namespace GhdAutoStoreUtilities.GUI
 {
     public partial class TabbedResultsControl : UserControl
     {
-        private BinDataAnalysisResults results;
+        private bool haveSearched = false;
+        private BinAnalysisResults results;
 
-        public BinDataAnalysisResults Results
+        public BinAnalysisResults Results
         {
             get => results;
             set => UpdateResults(value);
@@ -20,9 +21,10 @@ namespace GhdAutoStoreUtilities.GUI
             InitializeComponent();
         }
 
-        private void UpdateResults(BinDataAnalysisResults newResults)
+        private void UpdateResults(BinAnalysisResults newResults)
         {
-            bool haveSearched = results != null;
+            if (newResults == null) return;
+            haveSearched = true;
             results = newResults;
             // update missing bins
             if (results.MissingBins != null)

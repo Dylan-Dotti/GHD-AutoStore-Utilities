@@ -2,9 +2,9 @@
 
 namespace GhdAutoStoreUtilities
 {
-    public class MismatchedBinLocationFinder
+    public static class MismatchedBinLocationFinder
     {
-        public MismatchedBinLocation[] GetMismatchedBins(
+        public static MismatchedBinLocation[] GetMismatchedBins(
             SynqDataReader synqReader, AutoStoreDataReader asReader,
             bool sorted = false)
         {

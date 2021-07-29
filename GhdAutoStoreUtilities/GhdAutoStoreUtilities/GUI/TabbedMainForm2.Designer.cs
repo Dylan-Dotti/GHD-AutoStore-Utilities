@@ -94,10 +94,12 @@ namespace GhdAutoStoreUtilities.GUI
             this.asFileSelector.Dock = System.Windows.Forms.DockStyle.Fill;
             this.asFileSelector.FileType = "CSV Files|*.csv";
             this.asFileSelector.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.asFileSelector.Location = new System.Drawing.Point(3, 73);
+            this.asFileSelector.Location = new System.Drawing.Point(4, 74);
+            this.asFileSelector.Margin = new System.Windows.Forms.Padding(4);
             this.asFileSelector.Name = "asFileSelector";
-            this.asFileSelector.Size = new System.Drawing.Size(397, 65);
+            this.asFileSelector.Size = new System.Drawing.Size(395, 63);
             this.asFileSelector.TabIndex = 4;
+            this.asFileSelector.SelectedFile += new System.EventHandler(this.asFileSelector_SelectedFile);
             // 
             // synqFileSelector
             // 
@@ -106,10 +108,12 @@ namespace GhdAutoStoreUtilities.GUI
             this.synqFileSelector.Dock = System.Windows.Forms.DockStyle.Fill;
             this.synqFileSelector.FileType = "Excel Files|*.xlsx";
             this.synqFileSelector.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.synqFileSelector.Location = new System.Drawing.Point(3, 3);
+            this.synqFileSelector.Location = new System.Drawing.Point(4, 4);
+            this.synqFileSelector.Margin = new System.Windows.Forms.Padding(4);
             this.synqFileSelector.Name = "synqFileSelector";
-            this.synqFileSelector.Size = new System.Drawing.Size(397, 64);
+            this.synqFileSelector.Size = new System.Drawing.Size(395, 62);
             this.synqFileSelector.TabIndex = 3;
+            this.synqFileSelector.SelectedFile += new System.EventHandler(this.synqFileSelector_SelectedFile);
             // 
             // analyzeButton
             // 
@@ -133,6 +137,7 @@ namespace GhdAutoStoreUtilities.GUI
             this.tabbedResultsControl1.Location = new System.Drawing.Point(14, 222);
             this.tabbedResultsControl1.Margin = new System.Windows.Forms.Padding(4);
             this.tabbedResultsControl1.Name = "tabbedResultsControl1";
+            this.tabbedResultsControl1.Results = null;
             this.tabbedResultsControl1.Size = new System.Drawing.Size(407, 220);
             this.tabbedResultsControl1.TabIndex = 6;
             // 

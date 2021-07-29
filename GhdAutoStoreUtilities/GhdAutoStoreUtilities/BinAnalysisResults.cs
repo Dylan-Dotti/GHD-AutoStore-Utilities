@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace GhdAutoStoreUtilities
 {
-    public class BinDataAnalysisResults
+    public class BinAnalysisResults
     {
         public IEnumerable<string> MissingBins { get; private set; }
         public IEnumerable<MismatchedBinLocation> MismatchedBins { get; private set; }
 
-        public BinDataAnalysisResults(
+        public BinAnalysisResults(
             IEnumerable<string> missingBins,
             IEnumerable<MismatchedBinLocation> mismatchedBinLocations)
         {
-            MissingBins = missingBins.ToList();
-            MismatchedBins = mismatchedBinLocations.ToList();
+            MissingBins = missingBins?.ToList();
+            MismatchedBins = mismatchedBinLocations?.ToList();
         }
     }
 }

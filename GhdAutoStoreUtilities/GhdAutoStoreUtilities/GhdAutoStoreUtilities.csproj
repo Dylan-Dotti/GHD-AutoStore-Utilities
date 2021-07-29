@@ -74,7 +74,7 @@
   <ItemGroup>
     <Compile Include="AutoStoreBin.cs" />
     <Compile Include="AutoStoreDataReader.cs" />
-    <Compile Include="BinDataAnalysisResults.cs" />
+    <Compile Include="BinAnalysisResults.cs" />
     <Compile Include="Exceptions\AutoStoreHeaderNotFoundException.cs" />
     <Compile Include="Exceptions\HeaderNotFoundException.cs" />
     <Compile Include="Exceptions\SynqHeaderNotFoundException.cs" />
@@ -131,11 +131,11 @@
     <Compile Include="MismatchedBinLocationFinder.cs" />
     <Compile Include="SeparatedValueReader.cs" />
     <Compile Include="IGridFileReader.cs" />
-    <Compile Include="GUI\MissingBinOperationForm.cs">
+    <Compile Include="GUI\BinAnalysisOperationForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\MissingBinOperationForm.Designer.cs">
-      <DependentUpon>MissingBinOperationForm.cs</DependentUpon>
+    <Compile Include="GUI\BinAnalysisOperationForm.Designer.cs">
+      <DependentUpon>BinAnalysisOperationForm.cs</DependentUpon>
     </Compile>
     <Compile Include="ExcelReader.cs" />
     <Compile Include="GUI\MainForm.cs">
@@ -161,8 +161,8 @@
     <EmbeddedResource Include="GUI\MissingBinFinderControl.resx">
       <DependentUpon>MissingBinFinderControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\MissingBinOperationForm.resx">
-      <DependentUpon>MissingBinOperationForm.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\BinAnalysisOperationForm.resx">
+      <DependentUpon>BinAnalysisOperationForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>

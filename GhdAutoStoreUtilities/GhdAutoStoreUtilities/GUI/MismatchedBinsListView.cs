@@ -26,18 +26,16 @@ namespace GhdAutoStoreUtilities.GUI
             UpdateColumnSizes();
         }
 
-        private int MakeLong(int wLow, int wHigh)
+        public void AddRow(MismatchedBinLocation bin)
         {
-            int low = (int)IntLoWord(wLow);
-            short high = IntLoWord(wHigh);
-            int product = 0x10000 * (int)high;
-            int mkLong = (int)(low | product);
-            return mkLong;
+            ListViewItem item = new ListViewItem(
+                new[] { bin.BinID, bin.SynqLocation, bin.ASLocation });
+            listView1.Items.Add(item);
         }
 
-        private short IntLoWord(int word)
+        public void Clear()
         {
-            return (short)(word & short.MaxValue);
+            listView1.Items.Clear();
         }
 
         private void listView1_ItemSelectionChanged(object sender, ListViewItemSelectionChangedEventArgs e)
@@ -57,6 +55,20 @@ namespace GhdAutoStoreUtilities.GUI
                 column.Width = Convert.ToInt32(
                     Math.Round((float)listView1.Width / listView1.Columns.Count));
             }
+        }
+
+        private int MakeLong(int wLow, int wHigh)
+        {
+            int low = (int)IntLoWord(wLow);
+            short high = IntLoWord(wHigh);
+            int product = 0x10000 * (int)high;
+            int mkLong = (int)(low | product);
+            return mkLong;
+        }
+
+        private short IntLoWord(int word)
+        {
+            return (short)(word & short.MaxValue);
         }
     }
 }

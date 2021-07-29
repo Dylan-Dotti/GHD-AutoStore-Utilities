@@ -6,9 +6,9 @@ using System.Windows.Forms;
 
 namespace GhdAutoStoreUtilities.GUI
 {
-    public partial class MissingBinOperationForm : Form
+    public partial class BinAnalysisOperationForm : Form
     {
-        public string[] MissingBinsResult { get; private set; }
+        public BinAnalysisResults AnalysisResults { get; private set; }
 
         private readonly string synqFilePath;
         private readonly string asFilePath;
@@ -17,10 +17,10 @@ namespace GhdAutoStoreUtilities.GUI
 
         private readonly CancellationTokenSource tokenSource;
 
-        public MissingBinOperationForm(string synqFilePath, string asFilePath)
+        public BinAnalysisOperationForm(string synqFilePath, string asFilePath)
         {
             InitializeComponent();
-            MissingBinsResult = new string[] { };
+            AnalysisResults = null;
             this.synqFilePath = synqFilePath;
             this.asFilePath = asFilePath;
             tokenSource = new CancellationTokenSource();
@@ -29,15 +29,12 @@ namespace GhdAutoStoreUtilities.GUI
         private IGridFileReader GetGridFileReader(string filePath)
         {
             string extension = Path.GetExtension(filePath);
-            switch (extension)
+            return extension switch
             {
-                case ".xlsx":
-                    return new ExcelReader(filePath);
-                case ".csv":
-                    return new SeparatedValueReader(filePath, '\t');
-                default:
-                    throw new ArgumentException("Unsupported extension: " + extension);
-            }
+                ".xlsx" => new ExcelReader(filePath),
+                ".csv" => new SeparatedValueReader(filePath, '\t'),
+                _ => throw new ArgumentException("Unsupported extension: " + extension),
+            };
         }
 
         private async void MissingBinOperationForm_Shown(object sender, EventArgs e)
@@ -54,7 +51,9 @@ namespace GhdAutoStoreUtilities.GUI
                 SynqDataReader synqReader = new SynqDataReader(synqData);
                 AutoStoreDataReader asReader = new AutoStoreDataReader(asData);
                 token.ThrowIfCancellationRequested();
-                MissingBinsResult = MissingBinFinder.GetMissingBins(synqReader, asReader, true);
+                AnalysisResults = new BinAnalysisResults(
+                    MissingBinFinder.GetMissingBins(synqReader, asReader, true),
+                    MismatchedBinLocationFinder.GetMismatchedBins(synqReader, asReader, true));
                 token.ThrowIfCancellationRequested();
             });
             try
