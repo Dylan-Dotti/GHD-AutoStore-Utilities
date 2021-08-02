@@ -20,17 +20,17 @@ namespace GhdAutoStoreUtilities
             int locationHeaderIndex;
             try
             {
-                locationHeaderIndex = GetHeaderIndex(headers, "CURRENT_LOCATION");
+                locationHeaderIndex = GetHeaderIndex(headers, "Current Location");
             }
             catch (SynqHeaderNotFoundException)
             {
                 try
                 {
-                    locationHeaderIndex = GetHeaderIndex(headers, "LOCATION");
+                    locationHeaderIndex = GetHeaderIndex(headers, "Location");
                 }
                 catch (SynqHeaderNotFoundException)
                 {
-                    throw new SynqHeaderNotFoundException("CURRENT_LOCATION or LOCATION");
+                    throw new SynqHeaderNotFoundException("Current Location or Location");
                 }
             }
             var tuIDs = reader.GetColumnData(
