@@ -18,8 +18,8 @@ namespace GhdAutoStoreUtilities
             var mismatchedBinLocations = new List<MismatchedBinLocation>();
             foreach (string id in matchingIDs)
             {
-                var synqLocation = tus.Single(tu => tu.ID == id).Location;
-                var asLocation = bins.Single(bin => bin.ID == id).Mode;
+                var synqLocation = tus.First(tu => tu.ID == id).Location;
+                var asLocation = bins.First(bin => bin.ID == id).Mode;
                 if (GetSynqLocationCategory(synqLocation) != GetASLocationCategory(asLocation))
                 {
                     mismatchedBinLocations.Add(
@@ -33,7 +33,7 @@ namespace GhdAutoStoreUtilities
         {
             location = location.ToUpper();
             // can't use switch here due to needing to match generalized patterns
-            if (location.Contains("GRID"))
+            if (location.Contains("GRID") || location.Contains("TRANSIT"))
             {
                 return BinLocationCategory.Grid;
             }
@@ -41,10 +41,7 @@ namespace GhdAutoStoreUtilities
             {
                 return BinLocationCategory.Port;
             }
-            else
-            {
-                throw new ArgumentException("Unsupported Synq location: " + location);
-            }
+            throw new ArgumentException("Unsupported Synq location: " + location);
         }
 
         private static BinLocationCategory GetASLocationCategory(string location)
@@ -64,6 +61,8 @@ namespace GhdAutoStoreUtilities
                 case "PORT":
                 case "OPEN":
                     return BinLocationCategory.Port;
+                case "TRANSIT":
+                    return BinLocationCategory.Grid;
                 case "OUTSIDE":
                     return BinLocationCategory.Outside;
                 default:
