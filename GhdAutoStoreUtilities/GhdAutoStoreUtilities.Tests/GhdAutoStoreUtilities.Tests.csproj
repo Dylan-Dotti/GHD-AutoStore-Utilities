@@ -72,6 +72,8 @@
     <None Include="packages.config" />
     <None Include="TestFiles\fmc_bins.csv" />
     <None Include="TestFiles\fmc_tus.xlsx" />
+    <None Include="TestFiles\iuh_bins.csv" />
+    <None Include="TestFiles\iuh_tus.xlsx" />
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\xunit.analyzers.0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll" />
