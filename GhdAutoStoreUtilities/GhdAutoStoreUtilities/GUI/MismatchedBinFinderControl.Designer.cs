@@ -118,7 +118,7 @@
             this.compareButton.Size = new System.Drawing.Size(198, 40);
             this.compareButton.TabIndex = 2;
             this.compareButton.TabStop = false;
-            this.compareButton.Text = "Find Missing Bins";
+            this.compareButton.Text = "Analyze";
             this.compareButton.UseVisualStyleBackColor = true;
             // 
             // synqFileSelector
