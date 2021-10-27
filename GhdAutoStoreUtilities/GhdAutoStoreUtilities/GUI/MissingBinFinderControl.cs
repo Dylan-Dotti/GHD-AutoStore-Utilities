@@ -53,7 +53,6 @@ namespace GhdAutoStoreUtilities.GUI
                 asFileSelector.SelectedFileName);
             if (operationForm.ShowDialog(this) == DialogResult.OK)
             {
-                Console.WriteLine("ok");
                 results = operationForm.AnalysisResults.MissingBins.ToArray();
                 haveSearched = true;
                 UpdateResults();

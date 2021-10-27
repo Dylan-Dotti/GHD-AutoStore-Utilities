@@ -49,14 +49,14 @@
             this.missingBinFinderControl1.Location = new System.Drawing.Point(0, 0);
             this.missingBinFinderControl1.Margin = new System.Windows.Forms.Padding(4);
             this.missingBinFinderControl1.Name = "missingBinFinderControl1";
-            this.missingBinFinderControl1.Size = new System.Drawing.Size(556, 238);
+            this.missingBinFinderControl1.Size = new System.Drawing.Size(509, 238);
             this.missingBinFinderControl1.TabIndex = 0;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(556, 238);
+            this.ClientSize = new System.Drawing.Size(509, 238);
             this.Controls.Add(this.missingBinFinderControl1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;

@@ -77,6 +77,7 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(331, 210);
             this.tableLayoutPanel3.TabIndex = 1;
             // 
@@ -86,10 +87,10 @@
             this.asFileSelector.ButtonText = "Select AS data";
             this.asFileSelector.FileType = "CSV Files|*.csv";
             this.asFileSelector.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.asFileSelector.Location = new System.Drawing.Point(7, 79);
+            this.asFileSelector.Location = new System.Drawing.Point(7, 86);
             this.asFileSelector.Margin = new System.Windows.Forms.Padding(7, 12, 7, 12);
             this.asFileSelector.Name = "asFileSelector";
-            this.asFileSelector.Size = new System.Drawing.Size(317, 43);
+            this.asFileSelector.Size = new System.Drawing.Size(317, 50);
             this.asFileSelector.TabIndex = 4;
             this.asFileSelector.SelectedFile += new System.EventHandler(this.asFileSelector_SelectedFile);
             // 
@@ -97,7 +98,7 @@
             // 
             this.compareButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.compareButton.Enabled = false;
-            this.compareButton.Location = new System.Drawing.Point(66, 157);
+            this.compareButton.Location = new System.Drawing.Point(66, 164);
             this.compareButton.Margin = new System.Windows.Forms.Padding(10, 10, 10, 0);
             this.compareButton.Name = "compareButton";
             this.compareButton.Size = new System.Drawing.Size(198, 40);
@@ -116,7 +117,7 @@
             this.synqFileSelector.Location = new System.Drawing.Point(7, 12);
             this.synqFileSelector.Margin = new System.Windows.Forms.Padding(7, 12, 7, 12);
             this.synqFileSelector.Name = "synqFileSelector";
-            this.synqFileSelector.Size = new System.Drawing.Size(317, 43);
+            this.synqFileSelector.Size = new System.Drawing.Size(317, 50);
             this.synqFileSelector.TabIndex = 3;
             this.synqFileSelector.SelectedFile += new System.EventHandler(this.synqFileSelector_SelectedFile);
             // 

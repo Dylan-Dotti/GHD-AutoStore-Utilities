@@ -54,16 +54,16 @@
             // fileNameLabel
             // 
             this.fileNameLabel.AllowDrop = true;
-            this.fileNameLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.fileNameLabel.AutoEllipsis = true;
-            this.fileNameLabel.AutoSize = true;
+            this.fileNameLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.fileNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fileNameLabel.Location = new System.Drawing.Point(206, 29);
+            this.fileNameLabel.Location = new System.Drawing.Point(206, 10);
             this.fileNameLabel.Margin = new System.Windows.Forms.Padding(10);
             this.fileNameLabel.Name = "fileNameLabel";
-            this.fileNameLabel.Size = new System.Drawing.Size(91, 15);
+            this.fileNameLabel.Size = new System.Drawing.Size(212, 54);
             this.fileNameLabel.TabIndex = 2;
             this.fileNameLabel.Text = "No file selected";
+            this.fileNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // selectFileButton
             // 
@@ -93,7 +93,6 @@
             this.Name = "FileSelector";
             this.Size = new System.Drawing.Size(428, 74);
             this.tableLayoutPanel4.ResumeLayout(false);
-            this.tableLayoutPanel4.PerformLayout();
             this.ResumeLayout(false);
 
         }
