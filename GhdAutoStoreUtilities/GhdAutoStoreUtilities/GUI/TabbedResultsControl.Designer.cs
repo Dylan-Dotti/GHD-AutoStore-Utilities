@@ -139,6 +139,7 @@ namespace GhdAutoStoreUtilities.GUI
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl1.Enabled = false;
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.Location = new System.Drawing.Point(3, 3);
             this.tabControl1.Name = "tabControl1";
@@ -152,7 +153,7 @@ namespace GhdAutoStoreUtilities.GUI
             this.tabPage1.Location = new System.Drawing.Point(4, 27);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(579, 145);
+            this.tabPage1.Size = new System.Drawing.Size(440, 147);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Missing";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -170,7 +171,7 @@ namespace GhdAutoStoreUtilities.GUI
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(573, 139);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(434, 141);
             this.tableLayoutPanel4.TabIndex = 1;
             // 
             // missingBinsTextBox
@@ -182,7 +183,7 @@ namespace GhdAutoStoreUtilities.GUI
             this.missingBinsTextBox.Name = "missingBinsTextBox";
             this.missingBinsTextBox.ReadOnly = true;
             this.missingBinsTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.missingBinsTextBox.Size = new System.Drawing.Size(567, 133);
+            this.missingBinsTextBox.Size = new System.Drawing.Size(428, 135);
             this.missingBinsTextBox.TabIndex = 100;
             this.missingBinsTextBox.TabStop = false;
             // 
