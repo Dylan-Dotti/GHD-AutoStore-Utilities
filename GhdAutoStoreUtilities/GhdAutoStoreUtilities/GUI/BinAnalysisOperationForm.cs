@@ -79,11 +79,11 @@ namespace GhdAutoStoreUtilities.GUI
             cancelButton.Enabled = false;
             progressLabel.Text = "Cancelling...";
             tokenSource.Cancel();
-            try
+            /*try
             {
                 await operationTask;
             }
-            catch (Exception) { }
+            catch (Exception) { }*/
             DialogResult = DialogResult.Cancel;
         }
 

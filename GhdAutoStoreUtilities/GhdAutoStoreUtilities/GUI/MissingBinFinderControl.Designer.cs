@@ -30,15 +30,15 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.asFileSelector = new GhdAutoStoreUtilities.GUI.FileSelector();
             this.compareButton = new System.Windows.Forms.Button();
-            this.synqFileSelector = new GhdAutoStoreUtilities.GUI.FileSelector();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.label2 = new System.Windows.Forms.Label();
             this.maxLenInput = new System.Windows.Forms.NumericUpDown();
             this.missingBinsTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.asFileSelector = new GhdAutoStoreUtilities.GUI.FileSelector();
+            this.synqFileSelector = new GhdAutoStoreUtilities.GUI.FileSelector();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -81,19 +81,6 @@
             this.tableLayoutPanel3.Size = new System.Drawing.Size(331, 210);
             this.tableLayoutPanel3.TabIndex = 1;
             // 
-            // asFileSelector
-            // 
-            this.asFileSelector.ButtonSize = new System.Drawing.Size(125, 35);
-            this.asFileSelector.ButtonText = "Select AS data";
-            this.asFileSelector.FileType = "CSV Files|*.csv";
-            this.asFileSelector.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.asFileSelector.Location = new System.Drawing.Point(7, 86);
-            this.asFileSelector.Margin = new System.Windows.Forms.Padding(7, 12, 7, 12);
-            this.asFileSelector.Name = "asFileSelector";
-            this.asFileSelector.Size = new System.Drawing.Size(317, 50);
-            this.asFileSelector.TabIndex = 4;
-            this.asFileSelector.SelectedFile += new System.EventHandler(this.asFileSelector_SelectedFile);
-            // 
             // compareButton
             // 
             this.compareButton.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -107,19 +94,6 @@
             this.compareButton.Text = "Analyze";
             this.compareButton.UseVisualStyleBackColor = true;
             this.compareButton.Click += new System.EventHandler(this.compareButton_Click);
-            // 
-            // synqFileSelector
-            // 
-            this.synqFileSelector.ButtonSize = new System.Drawing.Size(125, 35);
-            this.synqFileSelector.ButtonText = "Select SynQ data";
-            this.synqFileSelector.FileType = "Excel Files|*.xlsx";
-            this.synqFileSelector.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.synqFileSelector.Location = new System.Drawing.Point(7, 12);
-            this.synqFileSelector.Margin = new System.Windows.Forms.Padding(7, 12, 7, 12);
-            this.synqFileSelector.Name = "synqFileSelector";
-            this.synqFileSelector.Size = new System.Drawing.Size(317, 50);
-            this.synqFileSelector.TabIndex = 3;
-            this.synqFileSelector.SelectedFile += new System.EventHandler(this.synqFileSelector_SelectedFile);
             // 
             // tableLayoutPanel2
             // 
@@ -220,9 +194,35 @@
             this.label1.Location = new System.Drawing.Point(7, 10);
             this.label1.Margin = new System.Windows.Forms.Padding(7, 10, 7, 4);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(164, 18);
+            this.label1.Size = new System.Drawing.Size(166, 18);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Missing AutoStore bins:";
+            this.label1.Text = "Missing AutoStore Bins:";
+            // 
+            // asFileSelector
+            // 
+            this.asFileSelector.ButtonSize = new System.Drawing.Size(125, 35);
+            this.asFileSelector.ButtonText = "Select AS data";
+            this.asFileSelector.FileType = "CSV Files|*.csv";
+            this.asFileSelector.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.asFileSelector.Location = new System.Drawing.Point(7, 86);
+            this.asFileSelector.Margin = new System.Windows.Forms.Padding(7, 12, 7, 12);
+            this.asFileSelector.Name = "asFileSelector";
+            this.asFileSelector.Size = new System.Drawing.Size(317, 50);
+            this.asFileSelector.TabIndex = 4;
+            this.asFileSelector.SelectedFile += new System.EventHandler(this.asFileSelector_SelectedFile);
+            // 
+            // synqFileSelector
+            // 
+            this.synqFileSelector.ButtonSize = new System.Drawing.Size(125, 35);
+            this.synqFileSelector.ButtonText = "Select SynQ data";
+            this.synqFileSelector.FileType = "Excel Files|*.xlsx";
+            this.synqFileSelector.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.synqFileSelector.Location = new System.Drawing.Point(7, 12);
+            this.synqFileSelector.Margin = new System.Windows.Forms.Padding(7, 12, 7, 12);
+            this.synqFileSelector.Name = "synqFileSelector";
+            this.synqFileSelector.Size = new System.Drawing.Size(317, 50);
+            this.synqFileSelector.TabIndex = 3;
+            this.synqFileSelector.SelectedFile += new System.EventHandler(this.synqFileSelector_SelectedFile);
             // 
             // MissingBinFinderControl
             // 
